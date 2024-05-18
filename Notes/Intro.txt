@@ -1,0 +1,50 @@
+1. Typescript is the superset of javascript that adds static typing
+and other features to enhance javascript development. It was devoloped
+by Microsoft on Oct 1, 2012, and is now an open-source project with a
+large community of contributors.
+
+2. It is easier to read, write and maintain than javascript.
+
+3. Any valid javascript code is also valid Typesript code.
+
+Advantages of TypeScript : 
+
+1. let fname = 'vinod
+    fname = 105
+    fname = true
+    console.log(fname); // true (In javascript)
+
+2. let fname:string = 'vinod'  // explictly defined string
+        fname = 105 
+        fname = true
+        console.log(fname) // error not valid in typescript
+
+/// In Typescript ///
+3. let fname = 'vinod'   // Type Inference
+    fname = 105
+    fname = true
+    console.log(fname); // error 
+
+4. It gives you error and warning while writing the code not like
+javascript which gives error after compiling the code.(Easier to write)
+
+5. it has more features like Classes, enums, tuples etc.
+
+6. Typescript catches error at compile time instead of runtime,
+which makes debugging easier and reduces of likelihood of bugs
+in production.
+
+/// Disadvantages ///
+
+1. Browser can't understand typescript. At last it has to be compiled into
+javascript which browser understands.
+
+
+
+
+/// TS Configuration file: ///
+
+We need this file to config our code like if want ts compiler 
+to not create js file if our ts file has error then we can config
+inside this file.
+
