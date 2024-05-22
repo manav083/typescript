@@ -48,3 +48,46 @@ We need this file to config our code like if want ts compiler
 to not create js file if our ts file has error then we can config
 inside this file.
 
+*** --noEmitOnError -- when we run our typescript file it creates about
+corresponding js file even when ts file has error but if we uncomment 'noEmitOnError' in tsconfig
+file it will not create the js file if it has error.
+
+
+//// Type Annotation ////
+
+If we give colon and define the type of a variable explictly then it
+is called TYPE ANNOTATION. We can use it with variable, function return type or 
+function parameters.
+
+Example- let myFavNum: numbr = 10;
+let myFavString: string = 'Manav Jain';
+
+
+Types in Typescript:
+
+Unknown
+    |-> undefined
+     -> void
+     -> Any
+        -> number
+            -> number enum
+            -> never
+        -> boolean 
+            -> never
+        -> bigint
+            -> never
+        -> string 
+            -> string enum
+            -> never
+        -> symbol
+            -> unique symbol
+            -> never
+        -> object
+            -> Array
+                -> tuples
+                -> Never
+            -> function
+                ->never
+            -> Constructor
+                -> never
+     -> Null
