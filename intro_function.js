@@ -1,3 +1,4 @@
+"use strict";
 //! Function Declaration
 //* You can declare a function using a function keyword, dollowed by the
 //* function name, a list of parameters enclosed in parantheses, and a return type.
@@ -28,9 +29,11 @@
 // const mygreet = greet('manav', 1);
 // console.log(mygreet);
 //TODO Write a palindrome function
-var isPalindrome = function (palin) {
-    var myPalin = palin.split("").reverse().join("");
+const isPalindrome = (palin) => {
+    let myPalin = palin.split("").reverse().join("");
     return myPalin === palin;
 };
-var result = isPalindrome('12322');
+const result = isPalindrome('12322');
 console.log(result);
+// Find the average of numbers in an array using function(arg: array)
+// find max in array
